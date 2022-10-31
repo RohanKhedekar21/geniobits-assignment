@@ -1,0 +1,29 @@
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+}
+
+.taskCounterRow {
+    background-color: whitesmoke;
+    border-radius: 10px; 
+    width: 80%;
+    box-sizing: border-box;
+    padding: 15px;
+}
+
+.taskCounterHeading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.taskCounterCardRow{
+    display: flex;
+    justify-content: space-evenly;
+    color: white
+}
+

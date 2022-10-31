@@ -1,15 +1,16 @@
 import React from 'react';
+import './style.css';
 
 export const TaskCounter = () => {
     return (
-        <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', width: '100%', height: 'fit-content', boxSizing: 'border-box' }}>
-            <div style={{ backgroundColor: 'whitesmoke', borderRadius: '10px', width: '80%', boxSizing: 'border-box', padding: '15px' }}>
-                <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }}>
+        <div className='main-container'>
+            <div className='taskCounterRow'>
+                <div className='taskCounterHeading'>
                     <span>Tasks</span>
                     <input type="date" />
                 </div>
                 <hr />
-                <div style={{ display: 'flex', justifyContent: 'space-evenly', color: 'white' }}>
+                <div className='taskCounterCardRow'>
                     <div style={{ backgroundColor: 'orange', border: '2px solid orange', borderRadius: '10px', width: '100%', margin: '0 10px 0 10px', display: 'flex', flexDirection: 'column', alignItems: 'self-start', padding: '10px' }}>
                         <span>50</span>
                         <span>Ongoing</span>

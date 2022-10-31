@@ -16,9 +16,6 @@ export const MainContainer = () => {
         })
     }, [pageNumber])
 
-    console.log(">>>users",users)
-    console.log(">>>")
-
     return (
         <div style={{ width: '100%', display: 'flex', padding: '30px', display: 'flex', flexDirection: 'column' }}>
 
