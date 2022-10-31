@@ -1,0 +1,7 @@
+th, tr{
+    height: 40px
+}
+tr:hover{
+    background-color: aquamarine;
+    cursor: pointer;
+}

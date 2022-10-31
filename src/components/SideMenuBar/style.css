@@ -1,0 +1,14 @@
+.Sidebar-menu {
+  background-color: whitesmoke;
+  width: 30vh;
+  height: 90vh;
+  padding: 18px 18px 18px 18px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+li:not(:last-child) {
+  margin-bottom: 20px;
+}
